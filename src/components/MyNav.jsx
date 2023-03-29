@@ -1,11 +1,9 @@
-import {Container, Nav, Navbar} from "react-bootstrap"
+import { Container, Nav, Navbar } from "react-bootstrap";
 
-const MyNav = props => (
-    <Navbar bg="success" expand="lg">
+const MyNav = (props) => (
+  <Navbar bg="success" expand="lg">
     <Container fluid>
-      <Navbar.Brand href="#home">
-        {props.brand} 
-      </Navbar.Brand>
+      <Navbar.Brand href="#home">{props.brand}</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
@@ -16,6 +14,6 @@ const MyNav = props => (
       </Navbar.Collapse>
     </Container>
   </Navbar>
-)
+);
 
-export default MyNav
+export default MyNav;
