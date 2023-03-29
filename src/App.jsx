@@ -8,7 +8,7 @@ import Welcome from "./components/Welcome";
 function App() {
   return (
     <>
-    <MyNav  brand="EpiBooks" claim="Libreria Online"/>
+    <MyNav  brand="EpiBooks Libreria Online"/>
     <Welcome />
     <AllTheBooks />
     <MyFooter />

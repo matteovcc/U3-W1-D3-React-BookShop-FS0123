@@ -3,11 +3,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const MyFooter = () =>  (
-    <Container fluid>
-      <Row bg="success">
-        <Col className='text-center'>Servizi</Col>
-        <Col className='text-center'>Contatti</Col>
-        <Col className='text-center'>Social</Col>
+    <Container fluid className='bg-success mt-3'>
+      <Row>
+        <Col className='text-center mt-1'><h5>Servizi</h5><p>Ciao</p><p>Ciao</p><p>Ciao</p></Col>
+        <Col className='text-center mt-1'><h5>Contatti</h5><p>+3519628775</p><p>ciao@gmail.com</p><p>Ciao</p></Col>
+        <Col className='text-center mt-1'><h5>Social</h5></Col>
       </Row>
     </Container>
   
