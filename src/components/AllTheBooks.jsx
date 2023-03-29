@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import fantasy from "../data/fantasy.json"
 import Badge from "react-bootstrap/Badge"
+import "../AllTheBooks.css"
 
 class AllTheBooks extends Component {
     state = {initialValue : null}
@@ -16,7 +17,7 @@ class AllTheBooks extends Component {
             {fantasy.map((book, index) => (
           <Col xs={3}>
 
-            <Card className="border-top-1 border-start-0 border-end-1 border-bottom-0 bg-light shadow-lg h-100 p-1" key={`book-${index}`}>
+            <Card className="border-top-1 border-start-0 border-end-1 border-bottom-0 bg-light shadow-lg h-100 p-1 book-card" key={`book-${index}`}>
               <Card.Img variant="top" src={book.img}  style={{ height: "200px", objectFit:"contain"  }} /> 
               <Card.Body className="d-flex flex-column">
                 <Card.Title className="text-center">{book.title}</Card.Title>
