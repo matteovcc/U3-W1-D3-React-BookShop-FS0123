@@ -1,15 +1,9 @@
 import { Component } from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import {Button , Container, Card, Row, Col, Badge} from "react-bootstrap"
 import fantasy from "../data/fantasy.json";
-import Badge from "react-bootstrap/Badge";
 import "../AllTheBooks.css";
 
 class AllTheBooks extends Component {
-  state = { initialValue: null };
   render() {
     return (
       <Container className="mt-3">
